@@ -1,0 +1,51 @@
+a {
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+
+
+}
+
+#banner {
+    background-image: url(imgs/Banner.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 900px;
+
+}
+
+#logo {
+    width: 250px;
+}
+
+#link {
+    float: right;
+    padding: 30px 0;
+}
+
+#link a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: 800;
+    letter-spacing: 3px;
+
+}
+
+#link a:hover {
+    background-color: #ffe048;
+    color: black;
+    transition: 0.6s;
+
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
