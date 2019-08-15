@@ -69,6 +69,12 @@ h1{
     font-size: 35px;
 }
 
+.title-box{
+    text-align: center;
+    color: #58451a;
+}
+
+
 .title::before{
     content: "＼";
     padding-right: 20px;
@@ -84,5 +90,6 @@ h1{
     margin: 0 auto;
     padding: 30px;
     line-height: 2;
-    color: #938567
+    opacity: 0.6;
+    letter-spacing: 5px;
 }
