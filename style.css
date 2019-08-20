@@ -93,3 +93,63 @@ h1{
     opacity: 0.6;
     letter-spacing: 5px;
 }
+
+/* 產品區塊 */
+#product {
+    /* 顯示模式：格線 */
+    display: grid;
+    /* 格線-框架-欄位：欄位尺寸 欄位尺寸 欄位尺寸 */
+    grid-template-columns: auto auto auto;
+    /* 格線-間隙 */
+    grid-gap: 20px;
+    padding: 30px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#product img {
+    width: 100%;
+}
+
+.product-box a {
+    text-decoration: none;
+}
+
+.product-box h2 {
+    color: #fbad19;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.product-box hr {
+    height: 2px;
+    background-color: #bdac90;
+    border: 0;
+    margin: 20px 0;
+}
+
+.product-box p {
+    color: #58451a;
+    font-size: 0.9em;
+    padding: 10px 0;
+    line-height: 1.7;
+}
+
+
+.btn-big{
+    display: inline-block;
+    background-color: #642200;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 120px;
+    transition: 0.8s;
+    font-size: 7PX;
+    letter-spacing: 2px;
+}
+
+.btn-big:hover{
+    background-color: transparent;
+    border: 2px solid #642200;
+    color: #642200;
+    font-weight: 900;
+}
