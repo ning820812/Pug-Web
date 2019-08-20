@@ -24,8 +24,8 @@ html(lang="zh")
     body
         div(id="banner")
             nav
-                img(src="imgs/LOGO.png", alt="狸小路 LOGO", id="logo")       
-                div(id="link")
+                img(src="imgs/LOGO.png", alt="狸小路 LOGO", class="logo")       
+                div(class="link")
                     a(href="#") 最新消息
                     a(href="#") 產品介紹
                     a(href="#") 連絡我們
@@ -34,7 +34,6 @@ html(lang="zh")
             +title("BRANDS", "狸小路的堅持")
             p 不加多餘的糖份、油脂，不給不必要的色素裝飾，只有單純原味，與健康分享，不靠防腐香精來增加香氣與保存期限，使甜膩少一點、但保存短一點，讓你吃的無負擔，追求健康多一點。
             img(src="imgs/cake.png", alt="狸小路 產品")
-
 
         +title("CAKE", "產品介紹")
 
@@ -46,6 +45,18 @@ html(lang="zh")
             +product-box("cake05", "小路布丁$280", "以輕乳酪為底部的蛋糕體配上滑順帶楓糖香味的布丁，二種層次，吃在嘴裡滿足在心裡")
             +product-box("cake06", "戀愛小路$280", "巧克力的蛋糕體，以乳酪條作為表面的裝飾，內餡夾鮮奶油及覆盆苺的酸甜好滋味")
         a(href="#" class="btn-big") 觀看產品目錄
+        div(class="small-line")
+
 
         +title("NEWS", "最新消息")
         +title("CONTACT", "聯絡我們")
+
+        footer
+            nav
+                img(src="imgs/LOGO.png", alt="狸小路 LOGO", class="logo")       
+                div(class="link")
+                    a(href="#") 最新消息
+                    a(href="#") 產品介紹
+                    a(href="#") 連絡我們
+                div(id="copy") Copyright &copy; 2019 狸小路 All right reserved.
+
