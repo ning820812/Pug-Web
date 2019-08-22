@@ -176,3 +176,37 @@ footer #copy {
     font-size: 0.5em;
     text-align: center;
 }
+
+/*RMD*/
+/* 當螢幕寬度大於等於 1024 像素 - 桌機 */
+@media screen and (min-width: 1024px) {
+  
+}
+
+/* 當螢幕寬度小於等於 1023 像素 - 平板 */
+@media screen and (max-width: 1023px) {
+    #product {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+}
+
+/* 當螢幕寬度小於等於 767 像素 - 手機 */
+@media screen and (max-width: 767px) {
+    #product {
+       grid-template-columns: 1fr;
+       width: 100%;
+    }
+
+    #brands {
+        width: 100%;
+    }
+
+    #brands p {
+        width: 100%;
+    }
+
+    #brands > img {
+        width: 100%;
+    }
+}
