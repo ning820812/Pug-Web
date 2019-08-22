@@ -209,4 +209,19 @@ footer #copy {
     #brands > img {
         width: 100%;
     }
+
+    #banner {
+        background-position: center 0;
+    }
+    nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logo {
+        width: 200px;
+    }
+    .link {
+        float: none;
+        padding: 10px 0;
+    }
 }
